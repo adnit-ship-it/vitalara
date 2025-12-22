@@ -1,0 +1,568 @@
+{
+  "sections": [
+    {
+      "id": "home-hero",
+      "type": "hero",
+      "order": 1,
+      "content": {
+        "show": true,
+        "heading": "Confidence, We Got You",
+        "subheading": "Personalized GLP-1 Medication",
+        "bulletPoints": [
+          {
+            "text": "Trusted by experts",
+            "iconType": "checkmark",
+            "iconColor": "#337168"
+          },
+          {
+            "text": "Data-Driven Approach",
+            "iconType": "checkmark",
+            "iconColor": "#337168"
+          },
+          {
+            "text": "Exceptional care",
+            "iconType": "checkmark",
+            "iconColor": "#337168"
+          }
+        ],
+        "ctaButton": "Take the Assessment",
+        "media": {
+          "background": {
+            "src": "/assets/images/brand/hero-bg.png",
+            "alt": "Abstract orange gradient background"
+          },
+          "foreground": {
+            "src": "/assets/images/brand/hero-img.png",
+            "alt": "Hand holding a GLP-1 medication vial",
+            "heights": {
+              "mobile": "222px",
+              "tablet": "480px",
+              "desktop": "600px"
+            }
+          },
+          "logo": {
+            "src": "/assets/images/brand/logo.svg",
+            "alt": "Medivora logo",
+            "heights": {
+              "mobile": "24px",
+              "tablet": "28px",
+              "desktop": "82px"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "home-marquee",
+      "type": "marquee",
+      "order": 2,
+      "content": {
+        "show": true,
+        "features": [
+          {
+            "text": "No Hidden Fees",
+            "iconType": "checkmark-star",
+            "iconColor": "#337168"
+          },
+          {
+            "text": "Free, Expedited Delivery",
+            "iconType": "checkmark-star",
+            "iconColor": "#337168"
+          },
+          {
+            "text": "Doctor-led Plans & Coaching",
+            "iconType": "checkmark-star",
+            "iconColor": "#337168"
+          },
+          {
+            "text": "Money Back Guarantee",
+            "iconType": "checkmark-star",
+            "iconColor": "#337168"
+          }
+        ],
+        "marquee": {
+          "speed": 30,
+          "pauseOnHover": true
+        },
+        "background": {
+          "color": "#337168"
+        }
+      }
+    },
+    {
+      "id": "home-cta-weight-loss",
+      "type": "cta",
+      "order": 3,
+      "content": {
+        "show": true,
+        "title": "Weight Loss",
+        "subtitle": "GLP-1 Medication Options",
+        "image": {
+          "src": "/assets/images/weight-loss.png",
+          "alt": "Weight loss products"
+        },
+        "reverse": false,
+        "features": [
+          "Tirzepatide Tablets",
+          "Tirzepatide Injection",
+          "Tirzepatide Oral Drops"
+        ]
+      }
+    },
+    {
+      "id": "home-discover-1",
+      "type": "discover",
+      "order": 4,
+      "content": {
+        "show": true,
+        "title": "Discover Our Products",
+        "subtitle": "Lose Weight Today",
+        "shippingInfo": "Free Shipping. Fast Delivery.",
+        "providerText": "Speak to a provider today!",
+        "buyNowButton": "Buy Now",
+        "productsSource": "productsList",
+        "category": "weight-loss"
+      }
+    },
+    {
+      "id": "home-cta-skincare",
+      "type": "cta",
+      "order": 5,
+      "content": {
+        "show": true,
+        "title": "Skin Care",
+        "subtitle": "Acne Medication Options",
+        "image": {
+          "src": "/assets/images/skincare.png",
+          "alt": "Skincare products"
+        },
+        "reverse": true,
+        "features": [
+          "Topical Cream",
+          "Topical Spray",
+          "Topical Wipes"
+        ]
+      }
+    },
+    {
+      "id": "home-discover-2",
+      "type": "discover",
+      "order": 6,
+      "content": {
+        "show": true,
+        "title": "Discover Our Products",
+        "subtitle": "Lose Weight Today",
+        "shippingInfo": "Free Shipping. Fast Delivery.",
+        "providerText": "Speak to a provider today!",
+        "buyNowButton": "Buy Now",
+        "productsSource": "productsList",
+        "category": "skincare"
+      }
+    },
+    {
+      "id": "home-cta-wellness",
+      "type": "cta",
+      "order": 7,
+      "content": {
+        "show": true,
+        "title": "Wellness Products",
+        "subtitle": "Medication Options",
+        "image": {
+          "src": "/assets/images/skincare.png",
+          "alt": "Wellness products"
+        },
+        "reverse": false,
+        "features": [
+          "B12 Injection",
+          "Glutathione Injection",
+          "Methylene Capsules"
+        ]
+      }
+    },
+    {
+      "id": "home-trusted-by",
+      "type": "trustedBy",
+      "order": 8,
+      "content": {
+        "show": true,
+        "title": "Trusted By",
+        "center": true,
+        "marquee": {
+          "speed": 50,
+          "pauseOnHover": true
+        },
+        "logos": [
+          {
+            "src": "/assets/images/clients/schweiger.png",
+            "alt": "Schweiger Dermatology Group logo"
+          },
+          {
+            "src": "/assets/images/clients/echelon.png",
+            "alt": "Echelon Fitness logo"
+          },
+          {
+            "src": "/assets/images/clients/yesyoucan.png",
+            "alt": "Yes You Can logo"
+          },
+          {
+            "src": "/assets/images/clients/dietdirect.png",
+            "alt": "Diet Direct logo"
+          },
+          {
+            "src": "/assets/images/clients/alpha.png",
+            "alt": "Alpha logo"
+          },
+          {
+            "src": "/assets/images/clients/fifty410.png",
+            "alt": "Fifty 410 logo"
+          },
+          {
+            "src": "/assets/images/clients/skinclique.png",
+            "alt": "Skin Clique logo"
+          },
+          {
+            "src": "/assets/images/clients/medvi.png",
+            "alt": "Medvi logo"
+          },
+          {
+            "src": "/assets/images/clients/bloomberg.png",
+            "alt": "Bloomberg logo"
+          },
+          {
+            "src": "/assets/images/clients/forbes.png",
+            "alt": "Forbes logo"
+          },
+          {
+            "src": "/assets/images/clients/healthline.png",
+            "alt": "Healthline logo"
+          },
+          {
+            "src": "/assets/images/clients/web-md.png",
+            "alt": "WebMD logo"
+          },
+          {
+            "src": "/assets/images/clients/fortune.png",
+            "alt": "Fortune logo"
+          },
+          {
+            "src": "/assets/images/clients/fast-company.png",
+            "alt": "Fast Company logo"
+          },
+          {
+            "src": "/assets/images/clients/new-york-times.png",
+            "alt": "The New York Times logo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "home-testimonials",
+      "type": "testimonials",
+      "order": 9,
+      "content": {
+        "show": true,
+        "title": "What Our Customers Have To Say",
+        "reviewsSource": "websiteText",
+        "media": {
+          "avatar": {
+            "src": "/assets/images/user.svg",
+            "alt": "User avatar icon",
+            "color": "#337168"
+          },
+          "star": {
+            "src": "/assets/images/star.svg",
+            "alt": "Star rating icon",
+            "color": "#D3C984"
+          }
+        }
+      }
+    },
+    {
+      "id": "home-journey",
+      "type": "journey",
+      "order": 10,
+      "content": {
+        "show": true,
+        "title": "Your Weight Loss Journey",
+        "steps": [
+          {
+            "title": "Case Created",
+            "subtext": [
+              "Fill out the form and get excited!"
+            ],
+            "icon": {
+              "src": "/assets/images/case-created.svg",
+              "alt": "Case created icon",
+              "type": "case-created",
+              "color": "#337168"
+            }
+          },
+          {
+            "title": "Virtual Consult",
+            "subtext": [
+              "Get matched and meet with a provider"
+            ],
+            "icon": {
+              "src": "/assets/images/virtual-consult.svg",
+              "alt": "Virtual consult icon",
+              "type": "virtual-consult",
+              "color": "#337168"
+            }
+          },
+          {
+            "title": "Patient Approved",
+            "subtext": [
+              "Receive customer service support along the way"
+            ],
+            "icon": {
+              "src": "/assets/images/patient-approved.svg",
+              "alt": "Patient approved icon",
+              "type": "patient-approved",
+              "color": "#337168"
+            }
+          },
+          {
+            "title": "Prescription Sent",
+            "subtext": [
+              "Fast and free shipping and delivery"
+            ],
+            "icon": {
+              "src": "/assets/images/prescription.svg",
+              "alt": "Prescription sent icon",
+              "type": "prescription",
+              "color": "#337168"
+            }
+          },
+          {
+            "title": "Case Closed",
+            "subtext": [
+              "Start seeing results! Look into other products"
+            ],
+            "icon": {
+              "src": "/assets/images/case-closed.svg",
+              "alt": "Case closed icon",
+              "type": "case-closed",
+              "color": "#337168"
+            }
+          }
+        ],
+        "ctaButton": "Start Today!",
+        "media": {
+          "progressLine": {
+            "src": "/assets/images/progress-line.svg",
+            "alt": "Journey progress timeline illustration",
+            "color": "#337168"
+          }
+        }
+      }
+    },
+    {
+      "id": "home-features",
+      "type": "features",
+      "order": 11,
+      "content": {
+        "show": true,
+        "title": "Clinically Proven To Help You Lose Weight",
+        "cards": [
+          {
+            "value": "14.9%",
+            "description": "Average reduction in body weight"
+          },
+          {
+            "value": "6x",
+            "description": "More weight loss than diet\nand exercise alone"
+          },
+          {
+            "value": "100%",
+            "description": "Online Personalized Support"
+          }
+        ],
+        "media": {
+          "graph": {
+            "src": "/assets/images/wl-graph.png",
+            "alt": "Weight loss progress graph"
+          }
+        }
+      }
+    },
+    {
+      "id": "home-faq",
+      "type": "faq",
+      "order": 12,
+      "content": {
+        "show": true,
+        "title": "Frequently Asked Questions",
+        "questions": [
+          {
+            "question": "How long is the process on average?",
+            "answer": "The entire process typically takes 2-3 weeks from initial consultation to receiving your medication. This includes the consultation, prescription review, and expedited delivery to your doorstep."
+          },
+          {
+            "question": "Are there any additional fees?",
+            "answer": "No hidden fees! Our transparent pricing includes everything: consultation, prescription, and expedited delivery. What you see is what you pay."
+          },
+          {
+            "question": "How is my provider selected?",
+            "answer": "We carefully match you with a licensed healthcare provider based on your medical history, preferences, and specific needs. All our providers are board-certified and experienced in weight loss management."
+          },
+          {
+            "question": "Do GLP-1s actually work?",
+            "answer": "Yes! GLP-1 medications have been clinically proven to help with weight loss. Studies show patients typically lose 10-15% of their body weight when combined with lifestyle changes. Results vary by individual."
+          }
+        ]
+      }
+    },
+    {
+      "id": "home-intake-form",
+      "type": "intakeForm",
+      "order": 13,
+      "content": {
+        "show": true,
+        "title": "Reach your goal weight",
+        "highlight": "fast and easy with Medivora",
+        "fields": [
+          {
+            "label": "Name",
+            "placeholder": "First and Last"
+          },
+          {
+            "label": "Age",
+            "placeholder": "In Years"
+          },
+          {
+            "label": "Height",
+            "placeholder": "5'10\""
+          },
+          {
+            "label": "Weight",
+            "placeholder": "In Pounds"
+          }
+        ]
+      }
+    },
+    {
+      "id": "about-hero",
+      "type": "aboutHero",
+      "order": 1,
+      "content": {
+        "show": true,
+        "title": "About Us",
+        "subtitle": "Quality is our guarantee!",
+        "description": "Medivora works to change the game in the health and wellness space allowing for certified medical care, made simple and effective.",
+        "media": {
+          "logo": {
+            "src": "/assets/images/brand/logo-alt.svg",
+            "alt": "Brand logo",
+            "heights": {
+              "mobile": "48px",
+              "tablet": "64px",
+              "desktop": "100px"
+            }
+          },
+          "image": {
+            "src": "/assets/images/products-alt.png",
+            "alt": "Medivora product assortment"
+          }
+        }
+      }
+    },
+    {
+      "id": "about-stats",
+      "type": "aboutStats",
+      "order": 2,
+      "content": {
+        "show": true,
+        "title": "Your Satisfaction Is Our Priority",
+        "features": [
+          {
+            "text": "No Hidden Fees",
+            "iconType": "checkmark-star",
+            "iconColor": "#337168"
+          },
+          {
+            "text": "Expedited Delivery",
+            "iconType": "checkmark-star",
+            "iconColor": "#337168"
+          },
+          {
+            "text": "Doctor-led Plans & Coaching",
+            "iconType": "checkmark-star",
+            "iconColor": "#337168"
+          },
+          {
+            "text": "Money Back Guarantee",
+            "iconType": "checkmark-star",
+            "iconColor": "#337168"
+          }
+        ],
+        "support": {
+          "title": "Unlimited 24/7 Support Included",
+          "description": "Medivora provides 24/7 access to a dedicated team of specialists, ensuring you have the support you need around the clock. With unlimited appointments, messaging and support, you can confidently reach out for guidance, ask questions, or address concerns at any time."
+        },
+        "providers": {
+          "title": "Hand Selected Providers",
+          "description": "Medivora physicians are here to guide you every step of the way, bringing both their expertise and genuine care to keep you supported.",
+          "certification": "Certified doctors and clinicians",
+          "iconType": "checkmark-star",
+          "iconColor": "#337168"
+        }
+      }
+    },
+    {
+      "id": "contact-hero",
+      "type": "contactHero",
+      "order": 1,
+      "content": {
+        "show": true,
+        "title": "Contact Us: Fill out the form and hear back from us",
+        "media": {
+          "logo": {
+            "src": "/assets/images/brand/logo.svg",
+            "alt": "Brand logo",
+            "heights": {
+              "mobile": "60px",
+              "desktop": "88px"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "products-hero",
+      "type": "productsHero",
+      "order": 1,
+      "content": {
+        "show": true,
+        "title": "Explore Our Products",
+        "subtitle": "Personalized GLP-1 Medication",
+        "media": {
+          "logo": {
+            "src": "/assets/images/brand/logo.svg",
+            "alt": "Brand logo",
+            "heights": {
+              "mobile": "48px",
+              "tablet": "64px",
+              "desktop": "100px"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "products-discover",
+      "type": "discover",
+      "order": 2,
+      "content": {
+        "show": true,
+        "title": "Discover Our Products",
+        "subtitle": "Lose Weight Today",
+        "shippingInfo": "Free Shipping. Fast Delivery.",
+        "providerText": "Speak to a provider today!",
+        "buyNowButton": "Buy Now",
+        "productsSource": "productsList",
+        "category": "all"
+      }
+    }
+  ]
+}
+

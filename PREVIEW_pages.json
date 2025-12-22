@@ -1,0 +1,267 @@
+{
+  "iconRegistry": {
+    "checkmark": "/assets/images/checkmark.svg",
+    "checkmark-star": "/assets/images/checkmark-star.svg",
+    "checkmark-star-brown": "/assets/images/checkmark-star-brown.svg",
+    "check-circle": "/assets/images/intake-form/icons/check_circle.svg",
+    "case-created": "/assets/images/case-created.svg",
+    "virtual-consult": "/assets/images/virtual-consult.svg",
+    "patient-approved": "/assets/images/patient-approved.svg",
+    "prescription": "/assets/images/prescription.svg",
+    "case-closed": "/assets/images/case-closed.svg"
+  },
+  "logoRegistry": {
+    "navbar": "/assets/images/brand/logo-alt.svg",
+    "footer": "/assets/images/brand/logo-alt.svg",
+    "loadingScreen": "/assets/images/brand/logo.svg"
+  },
+  "pages": {
+    "/": {
+      "order": 1,
+      "sections": [
+        {
+          "sectionId": "home-hero",
+          "order": 1
+        },
+        {
+          "sectionId": "home-marquee",
+          "order": 2
+        },
+        {
+          "sectionId": "home-cta-weight-loss",
+          "order": 3
+        },
+        {
+          "sectionId": "home-discover-1",
+          "order": 4
+        },
+        {
+          "sectionId": "home-cta-skincare",
+          "order": 5
+        },
+        {
+          "sectionId": "home-discover-2",
+          "order": 6
+        },
+        {
+          "sectionId": "home-cta-wellness",
+          "order": 7
+        },
+        {
+          "sectionId": "home-trusted-by",
+          "order": 8
+        },
+        {
+          "sectionId": "home-testimonials",
+          "order": 9
+        },
+        {
+          "sectionId": "home-journey",
+          "order": 10
+        },
+        {
+          "sectionId": "home-features",
+          "order": 11
+        },
+        {
+          "sectionId": "home-faq",
+          "order": 12
+        },
+        {
+          "sectionId": "home-intake-form",
+          "order": 13
+        }
+      ],
+      "layout": {
+        "navbar": {
+          "height": {
+            "mobile": "83px",
+            "desktop": "68px"
+          },
+          "logo": {
+            "height": {
+              "mobile": "24px",
+              "tablet": "28px",
+              "desktop": "28px"
+            }
+          }
+        },
+        "footer": {
+          "height": {
+            "mobile": "64px",
+            "desktop": "72px"
+          },
+          "logo": {
+            "height": {
+              "mobile": "20px",
+              "desktop": "32px"
+            }
+          }
+        }
+      }
+    },
+    "/about": {
+      "order": 2,
+      "sections": [
+        {
+          "sectionId": "about-hero",
+          "order": 1
+        },
+        {
+          "sectionId": "home-trusted-by",
+          "order": 2
+        },
+        {
+          "sectionId": "about-stats",
+          "order": 3
+        }
+      ],
+      "layout": {
+        "navbar": {
+          "height": {
+            "mobile": "90px",
+            "desktop": "75px"
+          },
+          "logo": {
+            "height": {
+              "mobile": "26px",
+              "tablet": "30px",
+              "desktop": "30px"
+            }
+          }
+        },
+        "footer": {
+          "height": {
+            "mobile": "70px",
+            "desktop": "80px"
+          },
+          "logo": {
+            "height": {
+              "mobile": "22px",
+              "desktop": "35px"
+            }
+          }
+        }
+      }
+    },
+    "/products": {
+      "order": 3,
+      "sections": [
+        {
+          "sectionId": "products-hero",
+          "order": 1
+        },
+        {
+          "sectionId": "products-discover",
+          "order": 2
+        }
+      ],
+      "layout": {
+        "navbar": {
+          "height": {
+            "mobile": "80px",
+            "desktop": "65px"
+          },
+          "logo": {
+            "height": {
+              "mobile": "22px",
+              "tablet": "26px",
+              "desktop": "26px"
+            }
+          }
+        },
+        "footer": {
+          "height": {
+            "mobile": "60px",
+            "desktop": "70px"
+          },
+          "logo": {
+            "height": {
+              "mobile": "18px",
+              "desktop": "30px"
+            }
+          }
+        }
+      }
+    },
+    "/contact": {
+      "order": 4,
+      "sections": [
+        {
+          "sectionId": "contact-hero",
+          "order": 1
+        }
+      ],
+      "layout": {
+        "navbar": {
+          "height": {
+            "mobile": "83px",
+            "desktop": "68px"
+          },
+          "logo": {
+            "height": {
+              "mobile": "24px",
+              "tablet": "28px",
+              "desktop": "28px"
+            }
+          }
+        },
+        "footer": {
+          "height": {
+            "mobile": "64px",
+            "desktop": "72px"
+          },
+          "logo": {
+            "height": {
+              "mobile": "20px",
+              "desktop": "32px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "common": {
+    "pageTitle": "Vitalara",
+    "branding": {
+      "loadingScreen": {
+        "logo": {
+          "src": "/assets/images/brand/logo.svg",
+          "alt": "Brand Logo",
+          "height": {
+            "mobile": "80px",
+            "desktop": "124px"
+          }
+        }
+      }
+    },
+    "layout": {
+      "navbar": {
+        "height": {
+          "mobile": "83px",
+          "desktop": "68px"
+        },
+        "logo": {
+          "height": {
+            "mobile": "24px",
+            "tablet": "28px",
+            "desktop": "28px"
+          }
+        }
+      },
+      "footer": {
+        "height": {
+          "mobile": "64px",
+          "desktop": "72px"
+        },
+        "logo": {
+          "height": {
+            "mobile": "20px",
+            "desktop": "32px"
+          }
+        }
+      }
+    }
+  }
+}
+
