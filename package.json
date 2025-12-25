@@ -39,5 +39,8 @@
     "eslint": "^9.33.0",
     "eslint-config-prettier": "^10.1.8",
     "prettier": "^3.6.2"
+  },
+  "overrides": {
+    "parse5": "^7.1.2"
   }
 }
