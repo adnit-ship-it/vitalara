@@ -66,7 +66,7 @@
       "loadingScreen": {
           "height": {
               "mobile": "20px",
-              "desktop": "432px"
+              "desktop": "132px"
           },
           "width": {
               "mobile": "auto",

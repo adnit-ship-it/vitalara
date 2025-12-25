@@ -83,6 +83,33 @@
       "Methylated form for better absorption",
       "Prescription required"
     ]
+  },  {
+    "id": "ketoconazole-injection",
+    "name": "Ketoconazole Injection",
+    "description": "Ketoconazole injection for fungal infections",
+    "img": "/assets/images/products/ketoconazole-injection.png",
+    "thumbnail": "/assets/images/products/ketoconazole-injection.png",
+    "prices": {
+      "monthly": 399,
+      "threeMonthly": 349,
+      "sixMonthly": 349
+    },
+    "productBundleIds": {
+      "monthly": "awdwad12-awdad-41",
+      "threeMonthly": "awdwad12-awdad-32",
+      "sixMonthly": "awdwad12-awdad-33"
+    },
+    "quizId": "vitamin-b12",
+    "availability": "in_stock",
+    "category": "energy",
+    "type": "injection",
+    "features": [
+      "Vitamin B12 supplement",
+      "Energy boost",
+      "Neurological support",
+      "Methylated form for better absorption",
+      "Prescription required"
+    ]
   }
 ]
 
