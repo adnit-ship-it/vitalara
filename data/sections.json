@@ -84,7 +84,6 @@
                     }
                 ],
                 "marqueeSpeed": 50,
-                "marqueePauseOnHover": true,
                 "background": {
                     "color": "accentColor1"
                 }
