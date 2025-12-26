@@ -52,17 +52,6 @@
                         "alt": "Abstract orange gradient background",
                         "type": "image",
                         "show": true
-                    },
-                    "foreground": {
-                        "src": "/assets/images/brand/hero-img.png",
-                        "alt": "Hand holding a GLP-1 medication vial",
-                        "type": "image",
-                        "sizes": {
-                            "mobile": "222px",
-                            "tablet": "480px",
-                            "desktop": "600px"
-                        },
-                        "show": false
                     }
                 }
             }
