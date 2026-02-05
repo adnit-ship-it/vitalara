@@ -1,8 +1,8 @@
 <template>
-  <section v-if="content?.show" class="pt-24 pb-16 md:py-28 flex-col bg-backgroundColor">
+  <section v-if="content?.show" class="pt-8 lg:pt-12  md:py-10 flex-col bg-backgroundColor">
     <UiSectionWrapper>
       <UiSectionContainer class="pt-0">
-        <div class="w-full min-h-[640px] flex flex-col items-center gap-4 pt-8 lg:pt-12">
+        <div class="w-full min-h-[640px] flex flex-col items-center gap-4">
           <!-- Logo -->
           <img 
             v-motion 
@@ -159,6 +159,17 @@ const logoAlt = computed(
 const logoHeight = computed(() =>
   getLogoSize('hero', 'height', isMobile.value, isTablet.value)
 )
+
+// Content mapped from sectionData properties
+const content = computed(() => {
+  if (!props.sectionData) return null
+  return {
+    show: props.sectionData.heading?.show !== false,
+    title: props.sectionData.heading?.text,
+    subtitle: props.sectionData.subheading?.text,
+    description: props.sectionData.paragraph?.text
+  }
+})
 
 // Image configuration
 const imageSrc = computed(

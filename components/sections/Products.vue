@@ -1,5 +1,5 @@
 <template>
-  <UiSectionWrapper class="flex-col py-20">
+  <UiSectionWrapper class="flex-col pt-8 lg:pt-12 pb-20">
     <!-- Heading -->
     <UiSectionContainer>
       <h2 v-motion :initial="{ opacity: 0, y: 32 }" :visible-once="{

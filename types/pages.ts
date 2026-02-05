@@ -91,6 +91,19 @@ export interface PageSectionReference {
       }
     }
   }
+
+  export interface AnnouncementConfig {
+    enabled: boolean
+    text: string
+    link?: string
+    backgroundColor: string
+    textColor: string
+    heights: {
+      mobile: string
+      tablet?: string
+      desktop: string
+    }
+  }
   
   export interface PagesData {
     iconRegistry?: any
@@ -105,6 +118,7 @@ export interface PageSectionReference {
     }
     loadingScreen?: LoadingScreenConfig
     common?: CommonConfig
+    announcement?: AnnouncementConfig
     [key: string]: PageConfig | any
   }
   

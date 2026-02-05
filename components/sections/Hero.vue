@@ -1,5 +1,5 @@
 <template>
-  <UiSectionWrapper class="relative text-black md:h-[960px]  pt-24 lg:pt-32 pb-52">
+  <UiSectionWrapper class="relative text-black md:h-[960px] pb-52">
     <!-- Background Image -->
     <div
       v-if="media?.background?.src"

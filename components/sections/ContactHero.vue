@@ -1,6 +1,6 @@
 <template>
   <section
-    class="mx-auto bg-backgroundColor pt-28 flex flex-col items-center px-8 md:px-0"
+    class="mx-auto bg-backgroundColor pt-8 lg:pt-12 flex flex-col items-center px-8 md:px-0"
   >
     <img
       v-motion

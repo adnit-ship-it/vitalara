@@ -87,7 +87,7 @@ const providersBulletIconColor = computed(() => {
 </script>
 
 <template>
-  <UiSectionWrapper class="pb-8 md:py-20 py-6 md:pt-2">
+  <UiSectionWrapper class="pb-8 md:py-20 py-6 md:py-20">
     <UiSectionContainer class="flex pt-20 flex-col items-center">
       <h2
         v-motion
