@@ -1,14 +1,14 @@
 <template>
   <footer
-    class="bg-accentColor1 text-white flex justify-center pb-4 footer-height"
-    :style="{ height: getFooterHeight() }"
+    class="bg-accentColor1 text-white flex flex-col items-center pb-4 footer-container"
   >
+    <!-- Main row: Logo, line, navigation -->
     <div
       class="max-w-[1328px] w-full flex items-end justify-between md:justify-center px-4 md:px-8 md:gap-8"
     >
       <div class="flex items-center">
         <NuxtLink to="/">
-          <div class="pb-1" :style="{ height: getLogoHeight() }">
+          <div class="pb-1 footer-logo">
             <img
               src="/assets/images/brand/logo-secondary-1.svg"
               :alt="common?.accessibility?.brandLogo || 'Brand Logo'"
@@ -41,44 +41,61 @@
         </NuxtLink>
       </div>
     </div>
-    <!-- Logo on the left -->
+
+    <!-- Legal links row: centered, smaller text -->
+    <div v-if="legalStore.footerLinks.length" class="flex items-center gap-x-2 mt-1">
+      <template v-for="(link, index) in legalStore.footerLinks" :key="link.id">
+        <NuxtLink
+          :to="`/legal/${link.slug}`"
+          class="text-white/80 text-[10px] md:text-[12px] hover:text-white transition-colors duration-200"
+        >
+          {{ link.footerLabel }}
+        </NuxtLink>
+        <span v-if="index < legalStore.footerLinks.length - 1" class="text-white/60 text-[10px] md:text-[12px]">|</span>
+      </template>
+    </div>
   </footer>
 </template>
 
 <script setup>
-import { computed, ref, onMounted, onUnmounted } from "vue";
+import { computed, onMounted } from "vue";
 import pagesConfig from "~/data/pages.json";
-import { getLogoSize, getFooterHeightFromCommon } from "~/utils/branding";
+import { useLegalStore } from "~/stores/legalStore";
 
 const common = computed(() => pagesConfig.common || null);
-const isMobile = ref(false);
-
-const checkScreenSize = () => {
-  if (typeof window !== 'undefined') {
-    isMobile.value = window.innerWidth < 1024;
-  }
-};
-
-const getFooterHeight = () => {
-  return getFooterHeightFromCommon(isMobile.value);
-};
-
-const getLogoHeight = () => {
-  return getLogoSize("footer", "height", isMobile.value, false);
-};
+const legalStore = useLegalStore();
 
 onMounted(() => {
-  checkScreenSize();
-  window.addEventListener('resize', checkScreenSize);
-});
-
-onUnmounted(() => {
-  if (typeof window !== 'undefined') {
-    window.removeEventListener('resize', checkScreenSize);
-  }
+  legalStore.loadLegal(true); // skipLoadingState = true
 });
 </script>
 
 <style scoped>
-/* Custom styles if needed */
+/* Footer container - responsive height using CSS media queries */
+.footer-container {
+  height: 80px; /* mobile default - taller to fit two rows */
+}
+
+@media (min-width: 1024px) {
+  .footer-container {
+    height: 88px; /* desktop */
+  }
+}
+
+/* Footer logo - responsive height using CSS media queries */
+.footer-logo {
+  height: 20px; /* mobile default */
+}
+
+@media (min-width: 768px) {
+  .footer-logo {
+    height: 26px; /* tablet */
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer-logo {
+    height: 32px; /* desktop */
+  }
+}
 </style>
